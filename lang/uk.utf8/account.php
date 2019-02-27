@@ -11,163 +11,163 @@
 
 defined('INTERNAL') || die();
 
-$string['changepassworddesc'] = 'Новий пароль';
-$string['changepasswordotherinterface'] = 'Ви можете <a href="%s"> змінити свій пароль </a> через інший інтерфейс.';
-$string['oldpasswordincorrect'] = 'Це не ваш поточний пароль.';
+$string['changepassworddesc'] = 'New password';
+$string['changepasswordotherinterface'] = 'You may <a href="%s">change your password</a> through a different interface.';
+$string['oldpasswordincorrect'] = 'This is not your current password.';
 
-$string['changeusernameheading'] = "Змінити ім'я користувача";
-$string['changeusername'] = "Нове ім'я користувача";
-$string['changeusernamedesc'] = "Ім'я користувача, яке використовується для входу до %s. Імена користувачів мають довжину 3-30 символів і можуть містити літери, цифри та найпоширеніші символи, за винятком пропусків. ";
+$string['changeusernameheading'] = 'Change username';
+$string['changeusername'] = 'New username';
+$string['changeusernamedesc'] = 'The username you use to log into %s. Usernames are 3-30 characters long and may contain letters, numbers, and most common symbols excluding spaces.';
 
-$string['usernameexists1'] = "Ви можете використовувати це ім'я користувача. Виберіть інше. ";
+$string['usernameexists1'] = 'You can\'t use this username. Please choose another one.';
 
-$string['accountoptionsdesc'] = 'Загальні параметри облікового запису';
+$string['accountoptionsdesc'] = 'General account options';
 
-$string['changeprofileurl'] = 'Змінити URL-адресу профілю';
-$string['profileurl'] = 'URL профілю';
-$string['profileurldescription'] = 'Персоналізована URL-адреса для сторінки вашого профілю. Це поле має бути довжиною 3-30 символів. ';
-$string['urlalreadytaken'] = 'Ця URL-адреса профілю вже зайнята. Виберіть інше. ';
+$string['changeprofileurl'] = 'Change profile URL';
+$string['profileurl'] = 'Profile URL';
+$string['profileurldescription'] = 'A personalised URL for your profile page. This field must be 3-30 characters long.';
+$string['urlalreadytaken'] = 'This profile URL is already taken. Please choose another one.';
 
-$string['friendsnobody'] = 'Ніхто не може додати мене як друга';
-$string['friendsauth'] = 'Нові друзі потребують моєї авторизації';
-$string['friendsauto'] = 'Нові друзі автоматично авторизовані';
-$string['friendsdescr'] = 'Контроль друзів';
-$string['updatedfriendcontrolsetting'] = 'Оновлений контроль друзів';
+$string['friendsnobody'] = 'Nobody may add me as a friend';
+$string['friendsauth'] = 'New friends require my authorisation';
+$string['friendsauto'] = 'New friends are automatically authorised';
+$string['friendsdescr'] = 'Friends control';
+$string['updatedfriendcontrolsetting'] = 'Updated friends control';
 
-$string['wysiwygdescr'] = 'Редактор HTML';
+$string['wysiwygdescr'] = 'HTML editor';
 
-$string['licensedefault'] = 'Стандартна ліцензія';
-$string['licensedefaultdescription'] = 'Типова ліцензія для вашого вмісту.';
-$string['licensedefaultinherit'] = 'Використовувати установку за умовчанням';
+$string['licensedefault'] = 'Default license';
+$string['licensedefaultdescription'] = 'The default license for your content.';
+$string['licensedefaultinherit'] = 'Use the institution default';
 
-$string['messagesdescr'] = 'Повідомлення інших користувачів';
-$string['messagesnobody'] = 'Не дозволяйте нікому надсилати мені повідомлення';
-$string['messagesfriends'] = 'Дозволити користувачам зі списку друзів надсилати мені повідомлення';
-$string['messagesallow'] = 'Дозволити будь-кому надсилати мені повідомлення';
+$string['messagesdescr'] = 'Messages from other users';
+$string['messagesnobody'] = 'Do not allow anyone to send me messages';
+$string['messagesfriends'] = 'Allow people on my friends list to send me messages';
+$string['messagesallow'] = 'Allow anyone to send me messages';
 
-$string['language'] = 'Мова';
+$string['language'] = 'Language';
 
-$string['showviewcolumns'] = 'Показувати елементи керування для додавання та видалення стовпців під час редагування сторінки';
+$string['showviewcolumns'] = 'Show controls to add and remove columns when editing a page';
 
-$string['tagssideblockmaxtags'] = 'Максимальна кількість тегів у хмарі';
-$string['tagssideblockmaxtagsdescription'] = 'Максимальна кількість тегів для відображення в хмарі тегів';
+$string['tagssideblockmaxtags'] = 'Maximum tags in cloud';
+$string['tagssideblockmaxtagsdescription'] = 'Maximum number of tags to display in your tag cloud';
 
-$string['enablemultipleblogs1'] = 'Кілька журналів';
-$string['enablemultipleblogsdescription1'] = 'Типово, у вас є один журнал. Якщо ви бажаєте зберегти більше одного журналу, увімкніть цю опцію. ';
+$string['enablemultipleblogs1'] = 'Multiple journals';
+$string['enablemultipleblogsdescription1']  = 'By default, you have one journal. If you would like to keep more than one journal, turn this option on.';
 
-$string['hiderealname'] = "Приховати справжнє ім'я";
-$string['hiderealnamedescription'] = "Встановіть цей прапорець, якщо ви встановили відображуване ім'я та не бажаєте, щоб інші користувачі могли знайти вас";
+$string['hiderealname'] = 'Hide real name';
+$string['hiderealnamedescription'] = 'Check this box if you have set a display name and do not want other users to be able to find you by your real name in user searches.';
 
-$string['showhomeinfo2'] = 'Інформація про інформаційну панель';
-$string['showhomeinfodescription1'] = 'Відображення інформації про те, як використовувати %s на інформаційній панелі';
-$string['showprogressbar'] = 'Індикатор виконання профілю';
-$string['showprogressbardescription'] = 'Відображати панель виконання та поради щодо завершення профілю %s.';
+$string['showhomeinfo2'] = 'Dashboard information';
+$string['showhomeinfodescription1'] = 'Display information about how to use %s on the dashboard.';
 
-$string['prefssaved'] = 'Налаштування збережено';
-$string['prefsnotsaved'] = 'Не вдалося зберегти ваші налаштування.';
+$string['showprogressbar'] = 'Profile completion progress bar';
+$string['showprogressbardescription'] = 'Display progress bar and tips on how to complete your %s profile.';
 
-$string['maildisabled'] = 'Електронна пошта відключена';
-$string['disableemail'] = 'Вимкнути електронну пошту';
+$string['prefssaved']  = 'Preferences saved';
+$string['prefsnotsaved'] = 'Failed to save your preferences.';
+
+$string['maildisabled'] = 'Email disabled';
+$string['disableemail'] = 'Disable email';
 $string['maildisabledbounce'] =<<< EOF
-Надсилання електронної пошти було вимкнено, оскільки на сервер було повернуто дуже багато повідомлень.
-Переконайтеся, що ваш обліковий запис електронної пошти працює як і раніше, перш ніж увімкнути електронну пошту в налаштуваннях облікового запису на %s.
+Sending of email to your email address has been disabled as too many messages have been returned to the server.
+Please check that your email account is working as expected before you re-enable email in you account preferences at %s.
 EOF;
-$string['maildisableddescription'] = 'Відправлення електронної пошти на ваш обліковий запис було вимкнено. Ви можете <a href="%s"> знову ввімкнути свою електронну пошту </a> зі сторінки налаштувань облікового запису. ';
+$string['maildisableddescription'] = 'Sending of email to your account has been disabled. You may <a href="%s">re-enable your email</a> from the account preferences page.';
 
-$string['deleteaccountuser'] = 'Видалити обліковий запис %s';
-$string['deleteaccountdescription'] = 'Якщо ви видалите свій обліковий запис, весь вміст буде видалено назавжди. Ви не можете отримати його назад. Інформація про ваш профіль і ваші сторінки більше не буде видимою для інших користувачів. Вміст усіх написаних вами повідомлень на форумі все ще буде видимим, але ваше ім"я більше не відображатиметься. ';
-$string['sendnotificationdescription'] = 'Повідомлення буде надіслано адміністратору, який повинен затвердити видалення вашого облікового запису. Якщо ви бажаєте видалити свій обліковий запис, весь ваш особистий вміст буде видалено назавжди. Це означає, що будь-які завантажені вами файли, записи журналу, які ви написали, і створені вами сторінки та колекції будуть видалені. Ви не можете отримати нічого з цього назад. Якщо ви завантажили файли в групи, створили записи журналу та портфоліо, і зробили внески до форумів, вони залишаться на сайті, але ваше ім"я більше не відображатиметься. ';
-$string['pendingdeletionsince'] = 'Видалення облікового запису, що очікує, оскільки %s';
-$string['pendingdeletionadminemailsubject'] = 'Запит на видалення облікового запису на %s';
-$string['resenddeletionadminemailsubject'] = 'Нагадування про запит на видалення облікового запису на %s';
-$string['canceldeletionadminemailsubject'] = 'Скасування запиту на видалення облікового запису на %s';
-$string['pendingdeletionadminemailtext'] = 'Привіт, адміністратор,
+$string['deleteaccountuser']  = 'Delete account of %s';
+$string['deleteaccountdescription']  = 'If you delete your account, all your content will be deleted permanently. You cannot get it back. Your profile information and your pages will no longer be visible to other users. The content of any forum posts you have written will still be visible, but your name will no longer be displayed.';
+$string['sendnotificationdescription']  = 'A notification will be sent to an administrator, who needs to approve the deletion of your account. If you request to delete your account, all your personal content will be deleted permanently. That means any files you uploaded, journal entries you wrote, and pages and collections you created will be deleted. You cannot get any of that back. If you uploaded files to groups, created journal entries and portfolios, and contributed to forums there, they will stay on the site, but your name will no longer be displayed.';
+$string['pendingdeletionsince'] = 'Account pending deletion since %s';
+$string['pendingdeletionadminemailsubject'] = "Account deletion request on %s";
+$string['resenddeletionadminemailsubject'] = "Reminder of account deletion request on %s";
+$string['canceldeletionadminemailsubject'] = "Cancellation of account deletion request on %s";
+$string['pendingdeletionadminemailtext'] = "Hello Administrator,
 
-Користувач %s запросив видалення свого облікового запису з сайту.
+User %s has requested the deletion of their account from the site.
 
-Ви вказані як адміністратор в установі, до якої належить користувач.
-Ви можете вирішити, чи слід затверджувати чи відхиляти запит на видалення. Для цього виберіть наступне посилання: %s
+You are listed as an administrator in an institution to which the user belongs. You can decide whether to approve or deny the deletion request. To do this, select the following link: %s
 
-Нижче наведено відомості про запит на видалення облікового запису:
+Details of the account deletion request follow:
 
-Назва: %s
-Електронна пошта: %s
-Причина: %s
+Name: %s
+Email: %s
+Reason: %s
 
--
-З повагою,
-Команда %s ';
-$string['pendingdeletionadminemailhtml'] = "<p> Привіт, адміністратор, </p>
-<p> Користувач % s запросив видалення свого облікового запису з сайту. </p>
-<p> Ви вказані як адміністратор в установі, до якої належить користувач. Ви можете вирішити, чи потрібно затверджувати чи відхиляти запит на видалення. Для цього виберіть посилання: <a href='%s'> %s </a> </p>
-<p> Докладніше про запит на видалення облікового запису: </p>
-<p> Ім'я: %s </p>
-<p> Електронна пошта: %s </p>
-<p> Причина: %s </p>
-<pre> -
-З повагою,
-Команда %s </pre> ";
+--
+Regards,
+The %s Team";
+$string['pendingdeletionadminemailhtml'] = "<p>Hello Administrator,</p>
+<p>User %s has requested the deletion of their account from the site.</p>
+<p>You are listed as an administrator in an institution to which the user belongs. You can decide whether to approve or deny the deletion request. To do this, select the following link: <a href='%s'>%s</a></p>
+<p>Details of the account deletion request follow:</p>
+<p>Name: %s</p>
+<p>Email: %s</p>
+<p>Reason: %s</p>
+<pre>--
+Regards,
+The %s Team</pre>";
 
-$string['accountdeleted'] = 'Ваш обліковий запис видалено.';
-$string['resenddeletionnotification'] = 'Надіслати повідомлення про видалення';
-$string['resenddeletionadminemailtext'] = 'Привіт, адміністратор,
+$string['accountdeleted']  = 'Your account has been deleted.';
+$string['resenddeletionnotification'] = 'Resend deletion notification';
+$string['resenddeletionadminemailtext'] = "Hello Administrator,
 
-Це нагадування про те, що користувач %s запросив видалення свого облікового запису з сайту.
+This is a reminder that user %s has requested the deletion of their account from the site.
 
-Ви вказані як адміністратор в установі, до якої належить користувач. Ви можете вирішити, чи потрібно затверджувати чи відхиляти запит на видалення. Для цього виберіть наступне посилання: %s
+You are listed as an administrator in an institution to which the user belongs. You can decide whether to approve or deny the deletion request. To do this, select the following link: %s
 
-Нижче наведено відомості про запит на видалення облікового запису:
+Details of the account deletion request follow:
 
-Назва: %s
-Електронна пошта: %s
-Повідомлення: %s
+Name: %s
+Email: %s
+Message: %s
 
--
-З повагою,
-Команда %s ';
-$string['resenddeletionadminemailhtml'] = "<p> Привіт, адміністратор, </p>
-<p> Це нагадування про те, що користувач% звернувся із запитом на видалення облікового запису з сайту. </p>
-<p> Ви вказані як адміністратор в установі, до якої належить користувач. Ви можете вирішити, чи потрібно затверджувати чи відхиляти запит на видалення. Для цього виберіть посилання: <a href='%s'>% s </a> </p>
-<p> Докладніше про запит на видалення облікового запису: </p>
-<p> Ім'я: %s </p>
-<p> Електронна пошта: %s </p>
-<p> Повідомлення: %s </p>
-<pre> -
-З повагою,
-Команда %s </pre> ";
+--
+Regards,
+The %s Team";
+$string['resenddeletionadminemailhtml'] = "<p>Hello Administrator,</p>
+<p>This is a reminder that user % has requested the deletion of their account from the site.</p>
+<p>You are listed as an administrator in an institution to which the user belongs. You can decide whether to approve or deny the deletion request. To do this, select the following link: <a href='%s'>%s</a></p>
+<p>Details of the account deletion request follow:</p>
+<p>Name: %s</p>
+<p>Email: %s</p>
+<p>Message: %s</p>
+<pre>--
+Regards,
+The %s Team</pre>";
 
-$string['pendingdeletionemailsent'] = 'Надіслано сповіщення адміністраторам установи';
-$string['cancelrequest'] = 'Скасувати запит';
-$string['deleterequestcanceled'] = 'Запит на видалення облікового запису користувача скасовано.';
-$string['canceldeletionrequest'] = 'Скасувати запит на видалення';
-$string['canceldeletionrequestconfirmation'] = 'Це скасує запит адміністраторам установи на видалення облікового запису %s. Ви дійсно бажаєте продовжити? ';
-$string['canceldeletionadminmailtext'] = 'Привіт, адміністратор,
+$string['pendingdeletionemailsent'] = 'Sent notification to institution administrators';
+$string['cancelrequest'] = 'Cancel request';
+$string['deleterequestcanceled'] = 'The request to delete your user account has been cancelled.';
+$string['canceldeletionrequest'] = 'Cancel deletion request';
+$string['canceldeletionrequestconfirmation'] = 'This will cancel the request to the institution administrators for deleting the account of %s. Are you sure you want to continue?';
+$string['canceldeletionadminemailtext'] = "Hello Administrator,
 
-Користувач %s скасував запит на видалення облікового запису з сайту.
+User %s has cancelled the request to delete their account from the site.
 
-Ви вказані як адміністратор в установі, до якої належить користувач.
+You are listed as an administrator in an institution to which the user belongs.
 
-Докладні відомості про скасований запит наведено нижче:
+Details of the cancelled request follow:
 
-Назва: %s
-Електронна пошта: %s
+Name: %s
+Email: %s
 
--
-З повагою,
-Команда %s ';
-$string['canceldeletionadminemailhtml'] = "<p> Привіт, адміністратор, </p>
-<p> Користувач %s скасував запит на видалення облікового запису з сайту. </p>
-<p> Ви вказані як адміністратор в установі, до якої належить користувач. </p>
-<p> Докладніше про скасований запит: </p>
-<p> Ім'я: %s </p>
-<p> Електронна пошта: %s </p>
-<pre> -
-З повагою,
-Команда %s </pre> ";
+--
+Regards,
+The %s Team";
+$string['canceldeletionadminemailhtml'] = "<p>Hello Administrator,</p>
+<p>User %s has cancelled the request to delete their account from the site.</p>
+<p>You are listed as an administrator in an institution to which the user belongs.</p>
+<p>Details of the cancelled request follow:</p>
+<p>Name: %s</p>
+<p>Email: %s</p>
+<pre>--
+Regards,
+The %s Team</pre>";
 
-$string['resizeonuploaduserdefault1'] = 'Змінити розмір великих зображень при завантаженні';
-$string['resizeonuploaduserdefaultdescription2'] = 'Автоматичну зміну розміру зображень увімкнено за замовчуванням. Зображення, що перевищують максимальні розміри, змінюватимуться після завантаження. Ви можете вимкнути це налаштування для кожного зображення окремо. ';
+$string['resizeonuploaduserdefault1'] = 'Resize large images on upload';
+$string['resizeonuploaduserdefaultdescription2'] = '"Automatic resizing of images" is enabled by default. Images larger than the maximum dimensions will be resized when they are uploaded. You can disable this default setting for each image upload individually.';
 
-$string['devicedetection'] = 'Виявлення пристрою';
-$string['devicedetectiondescription'] = 'Увімкнути виявлення мобільного пристрою під час перегляду цього сайту.';
-$string['noprivacystatementsaccepted'] = 'Цей обліковий запис не прийняв жодних поточних заяв про конфіденційність.';
+$string['devicedetection'] = 'Device detection';
+$string['devicedetectiondescription'] = 'Enable mobile device detection when browsing this site.';
+$string['noprivacystatementsaccepted'] = 'This account has not accepted any current privacy statements.';
